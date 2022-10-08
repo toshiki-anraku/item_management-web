@@ -1,0 +1,4 @@
+FROM node:16-slim
+WORKDIR /app
+USER node
+EXPOSE 3333
