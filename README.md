@@ -8,7 +8,7 @@
    4. http 用 ：`127.0.0.1 tebura.local tebura-storybook.local`
    5. https 用：`::1 tebura.local tebura-storybook.local`
    6. 保存して終了（：wq）
-3. item_management-api のディレクトリへ移動
+3. item_management-web のディレクトリへ移動
 4. Docker 起動
 
 ```
