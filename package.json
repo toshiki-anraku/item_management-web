@@ -22,6 +22,7 @@
     "@mantine/prism": "^5.10.2",
     "@mui/material": "^5.10.8",
     "@reduxjs/toolkit": "^1.8.5",
+    "@tabler/icons": "^2.1.2",
     "embla-carousel-react": "^7.0.5",
     "graphql": "^16.6.0",
     "next": "12.3.1",
