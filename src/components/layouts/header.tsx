@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { createStyles, Header, Container, Anchor, Group, Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineLogo } from '@mantine/ds';
+import Link from 'next/link';
 
 const HEADER_HEIGHT = 84;
 

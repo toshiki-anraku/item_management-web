@@ -6,21 +6,29 @@ import {Image, Text, Badge, Button, Group } from '@mantine/core';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Header from '/Users/apple/item_management-web/src/components/layouts/header';
+// import {Header} from '@components/layouts/header';
 
-// import {Slider} from '@/Slider';
-
-// import Product from './components/Slider.txt';
-
+// function App() {
+//   return (
+//     <div>
+//       <Header />
+//     </div>
+//   );
+//   }
 const user_info = (
   <React.Fragment>
+  
     <CardContent>
       {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
         ジャンル
       </Typography> */}
-      <Typography variant="h5" component="div">
-        ユーザネーム　総所持数○個　
-        <Button>ジャンル管理</Button>
+      <Typography variant="h5" component="div">　ユーザネーム　
+      <Button>EDIT</Button>
+      　総所持数○個　
+      <Button>ジャンル管理</Button>
       </Typography>
+      
       {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
         adjective
       </Typography> */}
@@ -41,6 +49,18 @@ const card = (
       {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
         adjective
       </Typography> */}
+      <Typography variant="body2">
+        持ち物　
+        <Button>詳細</Button>
+        <CardActions>
+        </CardActions>
+      </Typography>
+      <Typography variant="body2">
+        持ち物　
+        <Button>詳細</Button>
+        <CardActions>
+        </CardActions>
+      </Typography>
       <Typography variant="body2">
         持ち物　
         <Button>詳細</Button>
