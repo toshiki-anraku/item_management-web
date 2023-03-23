@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next -p 3333",
+    "dev": "next -p 3334",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -26,6 +26,7 @@
     "embla-carousel-react": "^7.0.5",
     "graphql": "^16.6.0",
     "next": "12.3.1",
+    "next-auth": "^4.20.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^8.4.5"
